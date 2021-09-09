@@ -12,5 +12,10 @@
       "js": ["jquery-3.6.0.min.js", "dark-mode-toggle.js"],
       "css": ["dark-mode.css"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "24aefd65-b70e-4999-8ec1-1f07a7618752"
+    }
+  }
 }
