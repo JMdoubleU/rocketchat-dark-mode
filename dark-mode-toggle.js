@@ -23,19 +23,8 @@ const modeSymbols = {
 }
 
 const darkModeToggleText = {
-	'en': 'Toggle Dark Mode',
-	'de': 'Dark Mode umschalten',
-	'fr': 'Activer le mode sombre',
-	'es': 'Alternar Modo Obscuro',
-	'hu': 'Sötét mód be/ki',
-	'it': 'Attiva/Disattiva modalità scura',
-	'nl': 'Toggle Dark Mode',
-	'pl': 'Toggle Dark Mode',
-	'pt': 'Alternar Modo Escuro',
-	'ru': 'Смена оформления',
-	'he': 'מצב לילה',
-	'hi': 'डार्क मोड'
-}[defaultUserLanguage()] || 'Toggle Dark Mode';
+	'en': 'Toggle Dark Mode'
+}["en"] || 'Toggle Dark Mode';
 
 const toggleButton = `<button id="${DARK_MODE_BUTTON}" class="rcx-box rcx-box--full rcx-button--small-square rcx-button--square rcx-button--small rcx-button--ghost rcx-button rcx-button-group__item rcx-@ue04p" aria-label="${darkModeToggleText}">D</button>`;
 

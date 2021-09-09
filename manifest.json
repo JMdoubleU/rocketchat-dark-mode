@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "RC Dark",
+  "version": "1.0",
+  "description": "RocketChat Dark Mode Toggle",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["jquery-3.6.0.min.js", "dark-mode-toggle.js"],
+      "css": ["dark-mode.css"]
+    }
+  ]
+}
